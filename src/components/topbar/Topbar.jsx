@@ -8,14 +8,14 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     <div className={'topbar ' + (menuOpen && 'active')}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">
+          <a href="/" className="logo" title="Home Page">
             thanhtran.
           </a>
-          {/* <div className="itemContainer">
-            <FontAwesomeIcon className="icon" icon={faUser}></FontAwesomeIcon>
-            <span className="iconSpan">+84 918 322 965</span>
-          </div> */}
-          <a className="itemContainer" href="mailto:thanhtran17.work@gmail.com">
+          <a
+            className="itemContainer"
+            href="mailto:thanhtran17.work@gmail.com"
+            title="Mail To: thanhtran17.work@gmail.com"
+          >
             <FontAwesomeIcon
               className="icon"
               icon={faEnvelope}

@@ -9,6 +9,9 @@ import {
   PhoneFilled,
   MailFilled,
   HomeFilled,
+  IeCircleFilled,
+  EnvironmentFilled,
+  BookFilled,
 } from '@ant-design/icons';
 
 export default function Contact() {
@@ -32,7 +35,7 @@ export default function Contact() {
             </div>
             <div className="part">
               <div className="smallIcon">
-                <HomeFilled className="icons" />
+                <IeCircleFilled className="icons" />
               </div>
               <h3 className="h3">thanhtran.tech</h3>
             </div>
@@ -41,8 +44,27 @@ export default function Contact() {
 
         <div className="right">
           <div className="rightContainer">
-            <div className="imgContainer">
-              <img src="assets/man.png" alt="man"></img>
+            <div className="part">
+              <div className="smallIcon">
+                <BookFilled className="icons" />
+              </div>
+              <h3 className="h3">Hanoi University of Science and Technology</h3>
+            </div>
+            <div className="part">
+              <div className="smallIcon">
+                <EnvironmentFilled className="icons" />
+              </div>
+              <h3 className="h3">
+                CT16 Hong Ha Eco City, Tu Hiep, Thanh Tri, Ha Noi
+              </h3>
+            </div>
+            <div className="part">
+              <div className="smallIcon">
+                <HomeFilled className="icons" />
+              </div>
+              <h3 className="h3">
+                108 Nguyen Viet Xuan, Ninh Binh City, Ninh Binh
+              </h3>
             </div>
           </div>
         </div>
