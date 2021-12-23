@@ -7,7 +7,8 @@ import {
   designsPortfolio,
   geographyPortfolio,
 } from '../../data';
-import { Button } from 'antd';
+import { v4 as uuidv4 } from 'uuid';
+import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 
 export default function Works() {
   const [selected, setSelected] = useState('featured');
@@ -53,17 +54,19 @@ export default function Works() {
       <h1>WORKS</h1>
       <ul>
         {list.map((item) => (
-          <PortfolioList
-            title={item.title}
-            id={item.id}
-            active={selected === item.id}
-            setSelected={setSelected}
-          />
+          <div className="cont" key={uuidv4()}>
+            <PortfolioList
+              title={item.title}
+              id={item.id}
+              active={selected === item.id}
+              setSelected={setSelected}
+            />
+          </div>
         ))}
       </ul>
       <div className="container">
         {data.map((d) => (
-          <a href={d.link}>
+          <a href={d.link} key={uuidv4()}>
             <div className="item">
               <img src={d.img} alt="" />
               <h3>{d.title}</h3>

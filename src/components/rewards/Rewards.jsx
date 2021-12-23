@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './rewards.scss';
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Rewards() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -34,7 +35,7 @@ export default function Rewards() {
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
         {data.map((d) => (
-          <div className="container">
+          <div className="container" key={uuidv4()}>
             <div className="item">
               <div className="left">
                 <div className="leftContainer">

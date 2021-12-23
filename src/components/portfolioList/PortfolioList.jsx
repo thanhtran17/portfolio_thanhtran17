@@ -3,25 +3,25 @@ import { Button } from 'antd';
 
 const itemStyle = {
   display: 'flex',
-  'align-items': 'center',
-  'justify-content': 'center',
+  alignItems: 'center',
+  justifyContent: 'center',
   padding: '20px',
   width: '170px',
-  'font-size': '14px',
-  'font-weight': '400',
-  'text-transform': 'uppercase',
+  fontSize: '14px',
+  fontWeight: '400',
+  textTransform: 'uppercase',
   cursor: 'pointer',
 };
 
 const itemStyleActive = {
   display: 'flex',
-  'align-items': 'center',
-  'justify-content': 'center',
+  alignItems: 'center',
+  justifyContent: 'center',
   padding: '20px',
   width: '170px',
-  'font-size': '14px',
-  'font-weight': '400',
-  'text-transform': 'uppercase',
+  fontSize: '14px',
+  fontWeight: '400',
+  textTransform: 'uppercase',
   cursor: 'pointer',
   background: '#03204c',
 };
