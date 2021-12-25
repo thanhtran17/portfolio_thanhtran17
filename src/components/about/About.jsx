@@ -25,7 +25,7 @@ export default function About() {
             </h3>
             <h3>
               If you want to get in touch, feel free to{' '}
-              <a href="#contact">contact</a> with me.
+              <a href="#contact">contact</a> me.
             </h3>
             <hr size="1" />
             <div className="basicInfo smallHidden">
