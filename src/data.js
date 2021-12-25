@@ -61,12 +61,6 @@ export const geographyPortfolio = [
     link: 'https://scontent.fhan5-7.fna.fbcdn.net/v/t31.18172-8/25311136_1964994697071892_5377326557493887065_o.jpg?_nc_cat=100&ccb=1-5&_nc_sid=19026a&_nc_ohc=vwGX_Rt9ZDQAX-yuTwb&tn=QpHT2pKbciPN2m7Q&_nc_ht=scontent.fhan5-7.fna&oh=00_AT8RpQGMIhYgAjFwpn-7GYMyCz74iKw-gXl-YNydXG7gPQ&oe=61E6025C',
   },
   {
-    id: 2,
-    title: 'Basketball (Province)',
-    img: 'assets/works/nb.jpg',
-    link: 'https://scontent.fhan5-4.fna.fbcdn.net/v/t1.18169-9/22814285_1944503379121024_8773660333200375161_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=19026a&_nc_ohc=HAeA-gSYS6sAX-YwTzz&_nc_ht=scontent.fhan5-4.fna&oh=00_AT8ReebbHBv8TdO-Ti0Fdny31Ndy8aMs3GX0D84Eqq7e5g&oe=61E65050',
-  },
-  {
     id: 3,
     title: 'Basketball (Club)',
     img: 'assets/works/gom.jpg',

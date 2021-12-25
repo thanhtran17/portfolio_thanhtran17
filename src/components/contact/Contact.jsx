@@ -42,7 +42,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="right">
+        <div className="right smallHidden">
           <div className="rightContainer">
             <div className="part">
               <div className="smallIcon">
@@ -83,7 +83,7 @@ export default function Contact() {
           <a href="https://github.com/thanhtran17" target="_blank">
             <GithubFilled title="Github" className="icons" />
           </a>
-          <a href="https://www.instagram.com/thanhtran17_/" target="_blank">
+          <a href="https://www.linkedin.com/in/thanhtran-17/" target="_blank">
             <LinkedinFilled title="LinkedIn" className="icons last" />
           </a>
         </div>

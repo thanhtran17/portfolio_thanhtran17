@@ -94,6 +94,7 @@
             width: 100%;
             display: flex;
             align-items: center;
+
             @include mobile {
               flex-direction: column;
             }
@@ -120,6 +121,12 @@
                 display: none;
               }
             }
+          }
+        }
+
+        @include mobile {
+          .smallHidden {
+            display: none;
           }
         }
       }

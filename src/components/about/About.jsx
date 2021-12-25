@@ -28,7 +28,7 @@ export default function About() {
               <a href="#contact">contact</a> with me.
             </h3>
             <hr size="1" />
-            <div className="basicInfo">
+            <div className="basicInfo smallHidden">
               <h2>Timeline</h2>
               <div className="info">
                 <div className="leftInfo">
